@@ -57,14 +57,13 @@
     <Analyzer Include="F:\Project\GitHub\TestDOTS\TestDOTS\TestUnityDOTS\Library\PackageCache\com.unity.entities@1.2.0\Unity.Entities\SourceGenerators\SystemGenerator.Common.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MonoBehaviours\MyAuthoring.cs" />
-    <Compile Include="Assets\Scripts\MonoBehaviours\StartBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Components\SpeedComponent.cs" />
+    <Compile Include="Assets\Scripts\Logging.cs" />
+    <Compile Include="Assets\Scripts\Components\GetPrefabAuthoring.cs" />
     <Compile Include="Assets\Scripts\Systems\RotationSystem.cs" />
-    <Compile Include="Assets\Scripts\MonoBehaviours\TestStart.cs" />
-    <Compile Include="Assets\Scripts\Components\MyOwnColor.cs" />
-    <Compile Include="Assets\Scripts\Components\HeightComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\SpeedComponentAuthoring.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\TestButton.cs" />
+    <Compile Include="Assets\Scripts\Components\InitPosComponentAuthoring.cs" />
+    <Compile Include="Assets\Scripts\Components\HeightComponentAuthoring.cs" />
     <Reference Include="UnityEngine">
       <HintPath>E:\Unity Folder\Unity Editor\2022.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
